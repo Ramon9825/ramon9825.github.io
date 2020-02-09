@@ -358,6 +358,9 @@ footer {
   .page-main {
     height: 45em;
     margin-top: 0;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .page-main h3 {
@@ -366,7 +369,7 @@ footer {
   }
 
   .page-box1 {
-    width: 17em;
+    width: 80%;
     height: 20em;
   }
 
