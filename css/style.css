@@ -253,7 +253,7 @@ footer {
 }
 
 .video {
-  background: rgb(0, 0, 0, 0.8);
+  background: #000;
   margin-top: 40px;
   position: relative;
   margin-left: auto;
@@ -352,11 +352,11 @@ footer {
   .background {
     background-position: 50% 55%;
     width: 100%;
-    height: 45em;
+    height: 36em;
   }
 
   .page-main {
-    height: 45em;
+    height: 36em;
     margin-top: 0;
   }
 
@@ -390,6 +390,7 @@ footer {
   }
 
   .video {
+    height: 20em;
     margin-top: 10em;
   }
 }
