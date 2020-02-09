@@ -333,9 +333,8 @@ footer {
     float: none;
     border: none;
     display: block;
-    background-color: #000;
+    background-color: rgb(0, 0, 0, 0.9);
     margin: 0;
-    border-top: 1px solid #FFF;
     transform: none;
   }
 
