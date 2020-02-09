@@ -384,6 +384,7 @@ footer {
 
   .page-main {
     height: 70em;
+    margin-top: 0;
   }
 
   .page-main h3 {
