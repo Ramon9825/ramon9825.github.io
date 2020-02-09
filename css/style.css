@@ -153,8 +153,9 @@ nav:after {
 
 .page-main {
   width: 80%;
-  height: 70em;
+  height: 100%;
   margin-top: 100px;
+  margin-bottom: 10px;
   position: relative;
   margin-left: auto;
   margin-right: auto;
