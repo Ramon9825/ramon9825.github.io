@@ -358,9 +358,6 @@ footer {
   .page-main {
     height: 45em;
     margin-top: 0;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .page-main h3 {
@@ -369,27 +366,27 @@ footer {
   }
 
   .page-box1 {
-    width: 80%;
+    width: 100%;
     height: 20em;
   }
 
   .page-box1  img {
-    width: 13em;
+    width: 82%;
     height: 9em;
     padding: 2em 2em 1em 2em;
   }
 
   .page-box1 h4 {
-    font-size: .7em;
+    font-size: .98em;
 
   }
 
   .page-box1 p {
-    font-size: .5em;
+    font-size: .7em;
   }
 
   .btd {
-    padding: .4em 3.8em;
+    padding: .4em 6em;
   }
 
   .video {
