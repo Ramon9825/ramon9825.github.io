@@ -425,4 +425,9 @@ iframe {
     height: 20em;
     margin-top: 10em;
   }
+
+  iframe {
+    height: 15em;
+    margin-top: 10em;
+  }
 }
