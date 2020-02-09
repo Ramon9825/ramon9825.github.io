@@ -272,6 +272,7 @@ footer {
 /* comments */
 .fb-comments {
   background-color: #000;
+  height: 20em;
 }
 
 /* responsive */
