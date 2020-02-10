@@ -294,7 +294,7 @@ iframe {
 }
 
 /* responsive */
-@media screen and (max-width: 856px) {
+@media screen and (max-width: 900px) {
 
   /* header */
   .nav-conteiner .btn-menumobile {
@@ -323,13 +323,30 @@ iframe {
     font-size: 1.8em;
   }
 
-  .nav-conteiner ul {
-    float: none;
-    display: none;
+  .nav-conteiner {
+    height: 6.1em;
+    line-height: 6.1em;
   }
 
-  .nav-conteiner ul li a {
-    font-size: .8em;
+  .nav-conteiner ul {
+    float: none;
+    position: relative;
+    height: 10em;
+    line-height: 3em;
+    margin-right: 5em;
+    display: none;
+    margin: 0;
+    padding: 0;
+    right: 0;
+  }
+
+  .nav-conteiner ul li {
+    float: none;
+    border: none;
+    display: block;
+    background-color: rgb(0, 0, 0, 0.9);
+    margin: 0;
+    transform: none;
   }
 }
 
