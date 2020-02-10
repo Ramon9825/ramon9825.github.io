@@ -101,7 +101,7 @@ nav:after {
 }
 .nav-conteiner ul {
   float: right;
-  margin: 0 0 0 40px;
+  margin-left: 10px;
   padding: 0;
 }
 
@@ -294,25 +294,42 @@ iframe {
 }
 
 /* responsive */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 856px) {
 
   /* header */
-  .logo img {
-    width: 40px;
-    height: 40px;
+  .nav-conteiner .btn-menumobile {
+    display: block !important;
   }
 
-  .logo span {
-    font-size: 20px;
+  .btn-menumobile {
+    color: white;
+    display: block;
+    font-size: 1.75em;
+    position: absolute;
+    right: 1em;
+    top: 1.4em;
+  }
+
+  .open {
+    display: block !important;
+  }
+
+  .logo a img {
+    width: 3em;
+    height: 3em;
+  }
+
+  .logo a span {
+    font-size: 1.8em;
   }
 
   .nav-conteiner ul {
     float: none;
-    display: inline-block;
+    display: none;
   }
 
   .nav-conteiner ul li a {
-    font-size: 14px;
+    font-size: .8em;
   }
 }
 
@@ -347,6 +364,10 @@ iframe {
     position: absolute;
     right: 1em;
     top: .75em;
+  }
+
+  .open {
+    display: block !important;
   }
 
   .nav-conteiner {
