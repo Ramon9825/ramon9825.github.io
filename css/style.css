@@ -179,7 +179,7 @@ nav:after {
   height: 500px;
   display: inline-block;
   border-radius: 15px;
-  background-color: #18FFFF;
+  background-color: #26C6DA;
   margin-bottom: 15px;
   margin-right: 10px;
 }
@@ -224,7 +224,7 @@ nav:after {
 }
 
 .btd:hover {
-  background-color: #006064;
+  background-color: #26C6DA;
   border: 1px solid #FFF;
 }
 
