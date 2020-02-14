@@ -210,8 +210,8 @@ nav:after {
 
 .btd {
   padding: 10px 20px;
-  background-color: #FFF;
-  color: #000;
+  background-color: #64B5F6;
+  color: #FFF;
   font-weight: 800;
   border-radius: 5px;
   margin-left: 40px;
@@ -224,8 +224,8 @@ nav:after {
 }
 
 .btd:hover {
-  background-color: #64B5F6;
-  color: #FFF;
+  background-color: #FFF;
+  color: #000;
 }
 
 /* footer */
