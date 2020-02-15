@@ -24,9 +24,7 @@ header {
 
 nav {
   position: fixed;
-  top: 0;
   width: 100%;
-  height: 100px;
   z-index: 1;
   background-color: #000;
 }
@@ -92,7 +90,6 @@ nav:after {
 }
 
 .nav-conteiner {
-  max-width: 100%;
   height: 100px;
   line-height: 100px;
   position: relative;
@@ -102,6 +99,7 @@ nav:after {
 .nav-conteiner ul {
   float: right;
   margin-left: 10px;
+  margin: 0;
   padding: 0;
 }
 
@@ -109,12 +107,6 @@ nav:after {
   list-style: none;
   float: left;
   margin: 0;
-  height: 50px;
-  line-height: 50px;
-  transform: translateY(50%);
-  border-left: 1px solid #212121;
-  border-right: 1px solid #212121;
-
 }
 
 .nav-conteiner ul li a {
@@ -187,7 +179,6 @@ main {
 .page-box1 {
   width: 440px;
   height: 500px;
-  display: inline-block;
   border-radius: 15px;
   background-color: #000;
   margin-bottom: 15px;
@@ -235,7 +226,7 @@ main {
 
 .btd:hover {
   background-color: #FFF;
-  color: #000;
+  color: #64B5F6;
 }
 
 /* footer */
@@ -286,7 +277,7 @@ footer {
 
 .video {
   background: #000;
-  margin-top: 40px;
+  margin: 60px 0;
   position: relative;
   margin-left: auto;
   margin-right: auto;
@@ -295,7 +286,7 @@ footer {
 iframe {
   width: 100%;
   height: 700px;
-
+  margin: 60px 0;
 }
 
 /* comments */
@@ -353,8 +344,6 @@ iframe {
     float: none;
     position: relative;
     display: none;
-    margin: 0;
-    padding: 0;
     width: 100%;
   }
 
@@ -418,17 +407,12 @@ iframe {
     float: none;
     position: relative;
     display: none;
-    margin: 0;
-    padding: 0;
   }
 
   .nav-conteiner ul li {
     float: none;
-    border: none;
     display: block;
     background-color: rgb(0, 0, 0, 0.9);
-    margin: 0;
-    transform: none;
   }
 
   .nav-conteiner ul li a {
