@@ -164,6 +164,7 @@ nav:after {
   margin: 150px 0 10px 10px;
   font-size: 20px;
   font-weight: 800;
+  text-shadow: 2px 2px #000;
 }
 
 .page-margin {
