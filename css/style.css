@@ -149,6 +149,7 @@ nav:after {
   background-size: cover;
   background-position: 45% 55%;
   position: fixed;
+  bottom: 0;
 }
 
 .page-main {
