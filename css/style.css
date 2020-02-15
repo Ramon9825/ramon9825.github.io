@@ -148,7 +148,7 @@ nav:after {
   background: url(../img/image1.jpg) no-repeat;
   background-size: cover;
   background-position: 45% 55%;
-  position: absolute;
+  position: relative;
 }
 
 .page-main {
