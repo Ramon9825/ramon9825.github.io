@@ -144,7 +144,7 @@ nav:after {
 /* section main */
 .background {
   width: 100%;
-  height:109%;
+  height:100%;
   background: url(../img/image1.jpg) no-repeat;
   background-size: cover;
   background-position: 45% 55%;
@@ -237,7 +237,7 @@ footer {
 }
 
 .footer-background {
-  background-color: #fff;
+  background-color: #000;
 }
 
 .footer-box {
