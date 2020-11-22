@@ -140,6 +140,10 @@ nav:after {
   background: url(../img/image1.jpg) no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  background-size: cover;
+  background-position: 0 0;
+  position: fixed;
+  bottom: 0;
 }
 
 section {
